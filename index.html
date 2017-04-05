@@ -3,64 +3,90 @@
 
 <head>
 
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Number What</title>
+    <title>Bonde's Mad</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" href="lib/simple-line-icons/css/simple-line-icons.css">
-    <link rel="stylesheet" href="lib/device-mockups/device-mockups.css">
+    <link href="vendor/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <!-- Theme CSS -->
-    <link href="css/new-age.css" rel="stylesheet">
+    <link href="css/agency.css" rel="stylesheet">
+    <link href="css/full-slider.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
     <![endif]-->
 
 </head>
 
-<body id="page-top">
+<body id="page-top" class="index">
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Number What</a>
-                <!-- <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logo.png" class="img-responsive" alt=""></a> -->
+                <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logo.png"></a>
+                <!-- <a class="navbar-brand page-scroll" href="#page-top">Bonde's <b>Mad</b></a> -->
+                <!-- TODO Indsæt logo her istedet! -->
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-
-                    <li>
-                        <a class="page-scroll" href="#features">Features</a>
+                    <li class="hidden">
+                        <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#download">Download</a>
+                        <a class="page-scroll" href="#portfolio">Menu'er</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#hack">Hackathon</a>
+                        <a class="page-scroll" href="#buffet">Buffet Menu</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#lokale">Selvskabslokale</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#udlejning">Udlejning</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#kontakt">Kontakt</a>
                     </li>
                 </ul>
             </div>
@@ -69,168 +95,955 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-7">
-                    <div class="header-content">
-                        <div class="header-content-inner">
-                            <!-- <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logo.png" class="img-responsive" alt=""></a -->
-                            <h1>Number What is a new digital clock for people with <b style="font-weight: 500;">dyscalculia</b>, that provides a unique way of telling time.</h1>
-                            <a href="#download" class="btn btn-outline btn-xl page-scroll">Let's get started</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-5">
-                    <div class="device-container">
-                      <!-- <div class="device-mockup apple_watch portrait blue"> -->
-                      <div class="device-mockup pebble portrait gold">
-                        <div class="device">
-                            <div class="screen">
-                              <img src="img/demo-watch-1.jpg" class="img-responsive" alt="">
-                            </div>
-                            <div class="button">
-                            </div>
-                        </div>
-                    </div>
+    <!-- Header -->
 
-                      </div>
-                          <!-- <div class="device-mockup iphone6_plus portrait white">
-                            <div class="device">
-                                <div class="screen">
-                                    <img src="img/demo-screen-1.jpg" class="img-responsive" alt="">
-                                </div>
-                                <div class="button">
-                                </div>
-                            </div>
-                        </div>
-                        -->
-                    </div>
+    <header>
+        <!-- <div class="container">
+            <div class="overlay">
+                <div class="intro-text">
+                    <div class="intro-lead-in">Velkommen til </br> <img src="img/logo.png" style="height:auto; width:40%;"></div>
+                    <div class="intro-heading">Levering af mad weekender og aften</div>
+                    <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+                </div>
+            </div>
+        </div> -->
+        <div class="overlay">
+            <div class="container ">
+                <div class="intro-text">
+                    <div class="intro-lead-in">Velkommen til </br> <img src="img/logo.png" style="height:auto; width:40%;"></div>
+                    <div class="intro-heading">Levering af mad weekender og aften</div>
+                    <a href="#portfolio" class="page-scroll btn btn-xl">Se Menu'en</a>
                 </div>
             </div>
         </div>
+
     </header>
 
-    <section id="features" class="features">
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <div class="section-heading">
-                        <h2>Time will come and time will pass</h2>
-                        <p class="text-muted">- Be able to tell when!</p>
-                        <hr>
-                    </div>
+                    <h2 class="section-heading">Menu'er</h2>
+                    <h3 class="section-subheading text-muted">Tag et kig på alle vores lækre retter og menu'er </br></br> Klik på en kategori for at få se hvad vi tilbyder</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4">
-                    <div class="device-container">
-                        <div class="device-mockup nexus_6p portrait black">
-                            <div class="device">
-                                <div class="screen">
-                                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                                    <img src="img/demo-screen-1.jpg" class="img-responsive" alt=""> </div>
-                                <div class="button">
-                                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
+                        <img src="img/portfolio/forretter.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Forretter</h4>
+                        <p class="text-muted"><b>35kr.</b> pr. person</p>
                     </div>
                 </div>
-                <div class="col-md-8">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="feature-item">
-                                    <i class="icon-screen-smartphone text-primary"></i>
-                                    <h3>Application</h3>
-                                    <p class="text-muted">Number what is avaiable </br>for all devices.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="feature-item">
-                                    <i class="icon-clock text-primary"></i>
-                                    <h3>Clocking</h3>
-                                    <p class="text-muted">Two colors show time passed and time comming.</p>
-                                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="feature-item">
-                                    <i class="icon-present text-primary"></i>
-                                    <h3>Free to Use</h3>
-                                    <p class="text-muted">Number What is free for everyone who struggles with time!</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="feature-item">
-                                    <i class="icon-lock-open text-primary"></i>
-                                    <h3>Open Source</h3>
-                                    <p class="text-muted">Since this clock face is MIT licensed, you can use it commercially!</p>
-                                </div>
-                            </div>
-                        </div>
+                        <img src="img/portfolio/dessert.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Desserter</h4>
+                        <p class="text-muted"><b>30kr.</b> pr. person</p>
                     </div>
                 </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/favorit.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Bonde's Favoritter</h4>
+                        <p class="text-muted"><b>80.</b> pr. person </br> Minimun bestilling 10 personer</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/tapas.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Tapas</h4>
+                        <p class="text-muted"><b>75kr.</b> pr. person</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/grill.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Grillstegning</h4>
+                        <p class="text-muted"><b>295kr.</b> .pr. time </br> I Odder kommune</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/grillTapas.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Gril Tapas</h4>
+                        <p class="text-muted">Grill tapas er små stykker kød så alle kan smage alle slags</p>
+                    </div>
+                </div>
+
             </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/polterabend.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Klassearrangement-polterabend</h4>
+                    <p class="text-muted"><b>45kr.</b> pr. person</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/gris.png" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Helstegt Pattegris</h4>
+                    <p class="text-muted"><b>160kr.</b> pr. person</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#buffet" class="portfolio-link page-scroll">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-angle-double-down fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/buffet_menu.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Buffet Menu'er</h4>
+                    <p class="text-muted">Klik for at tage et kig!</p>
+                </div>
+            </div>
+
         </div>
+
     </section>
 
-    <section class="cta">
-        <div class="cta-content">
-            <div class="container">
-                <h2>Stop struggling.<br>Start clocking.</h2>
-                <a href="#download" class="btn btn-outline btn-xl page-scroll">Let's Get Started!</a>
-            </div>
-        </div>
-        <div class="overlay"></div>
-    </section>
+    <div class="divider"></div>
+    <!-- Portfolio Grid Section -->
+    <div id="buffet"></div>
+    <section id="portfolio" class="bg-light-gray">
 
-    <section id="download" class="download bg-primary text-center">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <h2 class="section-heading">Discover what all the </br> fuzz is about!</h2>
-                    <p>Our watch faces sourcecodes are available on Github! </br> Get started by cloning or forking!</p>
-                    <div class="badges">
-                        <a class="badge-link" href="https://github.com/neobonde/NumberWhatPebble"><img src="img/GitHub_Logo_pebble.png" alt=""></a>
-                        <a class="badge-link" href="https://github.com/mkapiczy/NumberWhatAndroid"><img src="img/GitHub_Logo_wear.png" alt=""></a>
-                      </br>
-                      </br>
-                      </br>
-                      <a class="badge-link" href="https://devpost.com/software/number-what"><img src="img/devpost-logo.svg" alt=""></a>
+
+                <div class="col-lg-12 text-center">
+
+                    <h2 class="section-heading">Buffet Menu'er</h2>
+
+                    <h3 class="section-subheading text-muted">Tag et kig på alle vores lækre buffet'er </br></br> Sammensæt selv din menu af retter fra de forskellige kategorier </br></br> <b>150kr.</b> pr. person</h3>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolio" class="portfolio-link page-scroll">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-angle-double-up fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/tapas.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Menu'er</h4>
+                        <p class="text-muted">Klik for at tage et kig!</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/kod.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Kød</h4>
+                        <p class="text-muted">Vælg 1-2 slags kød</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal10" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/kartofler.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Kartofler</h4>
+                        <p class="text-muted">Vælg 1-2 slags kartofler</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal11" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/salat.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Salat</h4>
+                        <p class="text-muted">Vælg 1-2 slags salater</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal12" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/brod.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Brød</h4>
+                        <p class="text-muted">Vælg 1 slags brød</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#lokale" class="portfolio-link page-scroll">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-angle-double-down fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/lokale.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Selvskabslokale</h4>
+                        <p class="text-muted">Klik for at se mere!</p>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+
+
+    <!-- Services Section -->
+    <section id="lokale">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Bonde`s Mads Selskabslokale</h2>
+                    <h3 class="section-subheading text-muted">Har plads til 80 personer </br> Lejes med bord stole og service. </br> Rengøring kan tilkøbes </br> <b>Pris 2500 kr</b></h3>
+                </div>
+            </div>
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img class="fill" src="img/carousel/lokale1.jpg" alt="...">
+                        <div class="carousel-caption">
+                            <!-- <h3>Caption Text</h3> -->
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="fill" src="img/carousel/lokale2.jpg" alt="...">
+                        <div class="carousel-caption">
+                            <!-- <h3>Caption Text</h3> -->
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="fill" src="img/carousel/lokale3.jpg" alt="...">
+                        <div class="carousel-caption">
+                            <!-- <h3>Caption Text</h3> -->
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="fill" src="img/carousel/lokale4.jpg" alt="...">
+                        <div class="carousel-caption">
+                            <!-- <h3>Caption Text</h3> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+            <!-- Carousel -->
+        </div>
+    </section>
+
+    <div id="udlejning"></div>
+    <section id="portfolio" class="bg-light-gray">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12 text-center">
+
+                    <h2 class="section-heading">Udlejning</h2>
+
+                    <h3 class="section-subheading text-muted">Vi kan hos Bonde's Mad tilbyde udlejning af flere forskellige emner</h3>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-sm-3 col-md-3 portfolio-item">
+                    <img src="img/portfolio/telt.jpg" class="img-responsive" alt="">
+                    <!-- <a href="#portfolio" class="portfolio-link page-scroll">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-angle-double-up fa-3x"></i>
+                            </div>
+                        </div>
+
+                    </a> -->
+                    <div class="portfolio-caption">
+                        <h4>Partytelt</h4>
+                        <p class="text-muted">6x8 meter i pvc </br> Pris ved afhentning Skovdalsvej 4 </br> <b>2000 kr.</b> </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 col-md-3 portfolio-item">
+
+                    <img src="img/portfolio/stor_grill.jpg" class="img-responsive" alt="">
+                    <!-- <a href="#portfolioModal1" class="portfolio-link">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+
+                    </a> -->
+                    <div class="portfolio-caption">
+                        <h4>Pattegris Grill</h4>
+                        <p class="text-muted">Grill til stegning af grise op til 60 kg </br> <b>500 kr.</b> pr. dag </p>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3 portfolio-item">
+                    <img src="img/portfolio/stol.jpg" class="img-responsive" alt="">
+                    <!-- <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+
+                    </a> -->
+                    <div class="portfolio-caption">
+                        <h4>Kvalitets stol</h4>
+                        <p class="text-muted"><b>12 kr.</b> pr. stk. 0-40 stk. </br><b>10 kr.</b> pr. stk. 40-80 stk.</p>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3 portfolio-item">
+                    <img src="img/portfolio/borde.jpg" class="img-responsive" alt="">
+                    <!-- <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+
+                    </a> -->
+                    <div class="portfolio-caption">
+                        <h4>Borde</h4>
+                        <p class="text-muted"><b>50 kr.</b> pr. stk.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="kontakt">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-heading text-center">Kontakt Os</h2>
+                <div class="col-sm-6 col-md-6">
+                    <h3 class="section-subheading ">Tøv ikke med at kontakte mig! </br> Ring, mail eller besøg mig:</h3>
+                    <h3 class="section-subheading ">Bonde's Mad:</br> <a href="https://goo.gl/maps/8bNwwiAQkM22">Skovdalsvej 4 </br> 8300 Odder</h3></a>
+                    <h3 class="section-subheading "> Tlf: <a href="tel:+4542835326">42 83 53 26</a></br>E-Mail: <a href="mailto:Bonde@bondes-mad.dk">Bonde@bondes-mad.dk</a></h3>
+
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <div class="team-member">
+                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Jørn Bonde</h4>
+                        <p class="text-muted">Ejer</p>
+                        <!-- <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-instagram"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul> -->
+                    </div>
+
+                </div>
+            </div>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2231.8489633422278!2d10.150289316002212!3d55.9866459813994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c42dd7da9ceb3%3A0x1a2bb1b2316ce5d7!2sSkovdalsvej+4%2C+8300+Odder!5e0!3m2!1sda!2sdk!4v1491416098030"
+                width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
     </section>
 
     <footer>
-        <div id="hack" class="container">
-            <p>2017 Number What.</p>
-            <ul class="list-inline">
-                <li>
-                    <a href="https://auhack.org">AUHack</a>
-                </li>
-                <li>
-                    <a href="https://mlh.io">MLH</a>
-                </li>
-            </ul>
+        <div class="container">
+            <div class="row">
+                <ul class="list-inline social-buttons">
+                    <li><a href="https://www.instagram.com/bondesmad/"><i class="fa fa-instagram"></i></a>
+                    </li>
+                    <li><a href="https://www.facebook.com/bondesmad"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <!-- <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                    </li> -->
+                </ul>
+                <span class="copyright">Copyright &copy; Bonde's Mad 2017</span>
+
+            </div>
         </div>
     </footer>
 
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class=".col-lg-1 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Forretter</h2>
+                                <p class="item-intro text-muted">35 kr.pr.person</p>
+
+                                <ul>
+                                    <li>Tunmousse p&aring; salatbund med flutes og dressing</li>
+                                    <li>Tarteletter med h&oslash;nsek&oslash;dsfyld</li>
+                                    <li>Laksetatar p&aring; salatbund med ristet rugbr&oslash;d</li>
+                                    <li>Varmr&oslash;get laks med safran creme</li>
+                                </ul>
+                                <img class="img-responsive img-rounded" src="img/portfolio/forretter.jpg" alt="">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Luk</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Desserter</h2>
+                                <p class="item-intro text-muted">30kr. pr. person</p>
+                                <!-- <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt=""> -->
+                                <ul>
+                                    <li>Rabarber trifili</li>
+                                    <li>Chokolademousse</li>
+                                    <li>Citronfromage</li>
+                                    <li>Brownies (20kr. pr. person)</li>
+                                </ul>
+
+                                <img class="img-responsive img-rounded" src="img/portfolio/dessert.jpg" alt="">
+
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Luk</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Bonde's favorit</h2>
+                                <p class="item-intro text-muted">80kr. pr. person </br> Minimum bestilling 10 personer</p>
+                                <!-- <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt=""> -->
+                                <ul>
+                                    <li>Pulled Pork Burger</li>
+                                    <li>Hjemmelavet pulled pork (marineret nakkefilet) stegt i 10 timer</li>
+                                    <li>Hjemmelavet Coleslaw</li>
+                                    <li>Hjemmelavet BBQ sauce</li>
+                                    <li>Store grove burgerboller</li>
+                                </ul>
+
+                                <img class="img-responsive img-rounded" src="img/portfolio/favorit.jpg" alt="">
+
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Luk</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Tapas</h2>
+                                <p class="item-intro text-muted">75kr. pr. person </br> Som hovedret min 15 personer </br> Som forret til buffet 45kr. pr. person</p>
+                                <!-- <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt=""> -->
+                                <ul>
+                                    <li>3 slags spansk p&oslash;lse</li>
+                                    <li>Spegeskinke</li>
+                                    <li>2 slags pesto&nbsp;</li>
+                                    <li>Hummus</li>
+                                    <li>Oliven</li>
+                                    <li>Oliventappanade</li>
+                                    <li>Saltmandler</li>
+                                    <li>V&aelig;lg mellem 3 slags langtidsh&aelig;vet kuglebr&oslash;d (malt krydder eller naturel)</li>
+                                </ul>
+
+
+                                <img class="img-responsive img-rounded" src="img/portfolio/tapas.jpg" alt="">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Luk</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Grillstegning</h2>
+                                <p class="item-intro text-muted">Pris 295 kr pr time i Odder kommune. </br>Jeg tager gerne ud og griller til jeres firmafest, fødselsdage mv. </p>
+                                <!-- <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt=""> -->
+                                <p>Jeg griller bla.</p>
+                                <ul>
+                                    <li>Hele skinker</li>
+                                    <li>Oksefilet</li>
+                                    <li>Oksemørbrad</li>
+                                    <li>Krydret porchettastege</li>
+                                </ul>
+
+
+                                <img class="img-responsive img-rounded" src="img/portfolio/grill.jpg" alt="">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Luk</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Grill tapas</h2>
+                                <p class="item-intro text-muted">Grill tapas er små stykker kød Så alle kan smage alle slags</p>
+                                <!-- <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt=""> -->
+                                <ul>
+                                    <li>Grill kød</li>
+                                    <li>Bøffer alm/marineret</li>
+                                    <li>Karrymarineret kylling</li>
+                                    <li>Frankfurter pølser</li>
+                                    <li>BBQ ben</li>
+                                    <li>Zouvaliki spyd</li>
+                                </ul>
+
+
+                                <img class="img-responsive img-rounded" src="img/portfolio/grillTapas.jpg" alt="">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Luk</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 7 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Klassearrangement-polterabend</h2>
+                                <p class="item-intro text-muted">Alle retter kan bestilles med salat og flutes </br> Pris pr person 45kr. </br> Salat 10kr. </br> Flutes 5kr.</p>
+                                <!-- <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt=""> -->
+                                <ul>
+                                    <li>Lasange</li>
+                                    <li>Frikadeller med kartoffelsalat</li>
+                                    <li>Hakkebøffer med løg og sauce og bagekartoffel</li>
+                                    <li>Pastasalat med karry kylling</li>
+                                    <li>Boller i karry</li>
+                                    <li>Kyllinge/frikadellespyd m.tomat agurk og pastasalat</li>
+                                </ul>
+
+
+                                <img class="img-responsive img-rounded" src="img/portfolio/polterabend.jpg" alt="">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Luk</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 8 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Helstegt Pattegris</h2>
+                                <p class="item-intro text-muted">160kr. pr. person </br> Minimum bestilling 30 personer </br> Bemærk jeg griller og udskære hos jer</p>
+                                <!-- <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt=""> -->
+                                <ul>
+                                    <li>Helstegt pattegris 30-65 kg</li>
+                                    <li>Flødekartofler eller bagt kartoffel</li>
+                                    <li>Blandet salat</li>
+                                    <li>Hjemmebagt Møllehjul</li>
+                                </ul>
+
+
+                                <img class="img-responsive img-rounded" src="img/portfolio/gris.png" alt="">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Luk</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--  Buffet menu'er-->
+    <!-- Portfolio Modal 9 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Kød</h2>
+                                <p class="item-intro text-muted">Vælg 1-2 slags kød</p>
+                                <!-- <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt=""> -->
+                                <ul>
+                                    <li>Rosa stegt oksefilet</li>
+                                    <li>Rosa stegt kalvefilet</li>
+                                    <li>Kyllingefilet med bacon</li>
+                                    <li>Chili/vanilie marineret skinkesteg</li>
+                                    <li>Glaseret Skinke</li>
+                                    <li>Ungkvæg Culotte</li>
+                                    <li>Helstegt Oksemørbrad (tillæg på 20 kr pr person )</li>
+                                    <li>Langtidsstegt marineret Nakkefilet (ala Pulled Pork )</li>
+                                    <li>Kold hvidvinsdampet Laks (tillæg 10 kr pr person)</li>
+                                    <li>Grill pakke (grill selv)</li>
+                                    <ul>
+                                        <li>Grill kød</li>
+                                        <li>Bøffer alm/marineret</li>
+                                        <li>Karrymarineret kylling</li>
+                                        <li>Frankfurter pølser</li>
+                                        <li>BBQ ben</li>
+                                        <li>Zouvaliki spyd</li>
+                                    </ul>
+                                </ul>
+
+                                <img class="img-responsive img-rounded" src="img/portfolio/kod.jpg" alt="">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Luk</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 10 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Kartofler</h2>
+                                <p class="item-intro text-muted">Vælg 1-2 slags kartofler</p>
+                                <!-- <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt=""> -->
+                                <ul>
+                                    <li>Flødekartofler</li>
+                                    <li>Kartffelsalat med Creme fraiche</li>
+                                    <li>Bagekartofler med hjemmerørt hvidløgssmør</li>
+                                    <li>Sommer kartoffelsalat med radiser forårsløg, ærter og friske asparges</li>
+                                    <li>Små nye marinerede kartofler</li>
+                                    <li>Kartoffelrøsti</li>
+                                </ul>
+
+                                <img class="img-responsive img-rounded" src="img/portfolio/kartofler.jpg" alt="">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Luk</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Portfolio Modal 11 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Salat</h2>
+                                <p class="item-intro text-muted">Vælg 1-2 slags salater</p>
+                                <!-- <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt=""> -->
+                                <ul>
+                                    <li>Coleslaw Salat</li>
+                                    <li>Salat med friske frugter</li>
+                                    <li>Feta salat med agurk tomat pinjekerner mm.</li>
+                                    <li>Spidskålsalat med æbler og mandler</li>
+                                    <li>Tomatsalat med frisk Mozzarella</li>
+                                    <li>Honningmarineret rødbedesalat m/feta</li>
+                                    <li>Vandmelonsalat m/ feta (kun i sommertiden)</li>
+                                </ul>
+
+                                <img class="img-responsive img-rounded" src="img/portfolio/salat.jpg" alt="">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Luk</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 12 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Brød</h2>
+                                <p class="item-intro text-muted">Vælg 1 slags brød </br> Med brød kan man frit vælge imellem: </br> Hummus pesto advocadocreme eller fetacreme</p>
+                                <!-- <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt=""> -->
+                                <ul>
+                                    <li>Italianske Flutes </li>
+                                    <li>Møllehjul </li>
+                                    <li>Langtidshævet kuglebrød "malt/krydder/neutral"</li>
+                                </ul>
+
+                                <img class="img-responsive img-rounded" src="img/portfolio/brod.jpg" alt="">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Luk</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- jQuery -->
-    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
 
     <!-- Theme JavaScript -->
-    <script src="js/new-age.min.js"></script>
+    <script src="js/agency.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+        $('.carousel').carousel({
+            interval: 5000 //changes the speed
+        })
+    </script>
+
 
 </body>
 
