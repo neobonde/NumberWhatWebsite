@@ -21,9 +21,19 @@ function main() {
                 var section = jsonData[sectionId]
 
                 if (section[id] != null) {
+
+
                     if (editables[i].tagName == "IMG") {
                         editables[i].src = section[id];
-                    } else {
+                    }else if(editables[i].tagName == "A" && editables[i].id == "title button"){
+                        // console.log(editables[i]);
+                        editables[i].setAttribute("href", "#portfolio");
+                        editables[i].style.background = "#c1d72d";
+                        editables[i].style.borderColor = "#c1d72d";
+                        // console.log(editables[i].attributes["href"]);
+                        editables[i].innerHTML = section[id];
+                    }
+                    else {
                         editables[i].innerHTML = section[id];
                     }
 
