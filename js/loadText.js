@@ -22,7 +22,7 @@ function main() {
 
                 if (section[id] != null) {
                     if (editables[i].tagName == "IMG") {
-                        editables[i].src = "../" + section[id];
+                        editables[i].src = section[id];
                     } else {
                         editables[i].innerHTML = section[id];
                     }
