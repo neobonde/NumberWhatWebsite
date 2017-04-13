@@ -248,7 +248,7 @@ var jsonData = {
     "menu5": {
         "title": "Kontakt Os",
         "text1": "Tøv ikke med at kontakte mig! </br> Ring, mail eller besøg mig:",
-        "text2": "Bonde's Mad:</br> <a href=\"https://goo.gl/maps/8bNwwiAQkM22\">Skovdalsvej 4 </br> 8300 Odder</h3>",
+        "text2": "Bonde's Mad:</br> <a href=\"https://goo.gl/maps/8bNwwiAQkM22\">Skovdalsvej 4 </br> 8300 Odder</h3> </br></a> Indgang nede i hjørnet ved glasdøren",
         "text3": "Tlf: <a href=\"tel:+4542835326\">42 83 53 26</a></br>E-Mail: <a href=\"mailto:Bonde@bondes-mad.dk\">Bonde@bondes-mad.dk</a>",
     }
 };
